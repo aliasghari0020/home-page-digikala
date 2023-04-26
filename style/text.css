@@ -1,0 +1,251 @@
+/* add color */
+
+:root {
+    /* primary */
+    --primary: #ef3159;
+    --tint1: #f14b6e;
+    --tint2: #f9b2c1;
+    --Shade1: #ea1240;
+    --Shade2: #64081b;
+    /* Neutral */
+    --neutral-0: #5e5e5e;
+    --neutral-1: #3a3a3a;
+    --neutral-2: #aeaeae;
+    --neutral-3: #ebebeb;
+    --neutral-4: #f9f9f9;
+    /* text */
+    --text-l: #ffffff;
+    --text-d: #000000;
+    --input-t: #4a5568;
+    --caption-t: #4a5568;
+}
+
+/* hedaing*/
+
+
+
+.text-neutral-1{
+    color: var(--neutral-1);
+}
+.text-neutral-0{
+    color: var(--neutral-0);
+}
+.text-neutral-2{
+    color: var(--neutral-2);
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+}
+h1 {
+    font-size: 44px;
+    line-height: 62px;
+}
+h2 {
+    font-size: 40px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+}
+h3 {
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+}
+h4 {
+    font-size: 24px;
+    line-height: 40px;
+}
+h5 {
+    font-size: 20px;
+    line-height: 40px;
+}
+h6 {
+    font-size: 18px;
+    line-height: 32px;
+}
+/* li */
+li{
+    list-style-type: none;
+}
+/* ul */
+ul{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+/* text */
+
+
+
+.textMain-1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+.textMain-2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.textSub-1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+.textSub-2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+.textSub-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+.textSub-4 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+.textSub-5 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+/* label */
+
+.label-l {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 32px;
+}
+.label-s {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 32px;
+}
+/* caption */
+.caption-l {
+    font-size: 16px;
+    line-height: 32px;
+}
+.caption-s {
+    font-size: 12px;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+/* btn text */
+
+.text-btn-l {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+.text-btn-s {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+/* title */
+
+.tite-l {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 140%;
+}
+.tite-s {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 120%;
+}
+/* input  */
+input{
+    border: none;
+    outline: none;
+}
+input::placeholder{
+    color: var(--neutral-2)
+}
+
+@media screen and (max-width: 360px) {
+    .heading {
+        font-style: normal;
+        font-weight: 900;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 62px;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 72px;
+        letter-spacing: -0.015em;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 56px;
+        letter-spacing: -0.01em;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    h5 {
+        font-size: 12px;
+        line-height: 40px;
+    }
+    h6 {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    /* caption */
+    .caption-l {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .caption-s {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 180%;
+        text-transform: capitalize;
+    }
+    .caption-xs {
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 100%;
+        text-transform: capitalize;
+    }
+    /* body text */
+    .mobile-text-main {
+        font-weight: 400 !important;
+        font-size: 12px !important;
+        line-height: 200% !important;
+    }
+    /* btn */
+    .text-btn-l {
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 170%;
+        text-transform: uppercase;
+    }
+    .text-btn-s {
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 110%;
+        text-transform: uppercase;
+    }
+}

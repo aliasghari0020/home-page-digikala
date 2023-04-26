@@ -1,0 +1,33 @@
+@import url("./text.css");
+
+.top-header div nav ul li a.active{
+    color: var(--primary);
+}
+.top-header div nav ul li a.active:before {
+    position: absolute;
+    right: -10px;
+    bottom: -2px;
+    top: 55px;
+    left: 0;
+    height: 2px;
+    width: 120%;
+    background-color: var(--primary);
+    content: "";
+    transform: scaleX(1);
+    -webkit-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+header .box{
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--neutral-3);
+
+}
+
+@media screen and (max-width: 992px) {
+    .top-header{
+        display: none;
+    }
+}
+
